@@ -316,7 +316,7 @@ switch (opcao) {
         printf("Você escolheu a opção 1\n");
         break;
     case 2:
-        printf("Você escolheu a opção 1\n");
+        printf("Você escolheu a opção 2\n");
         break;
     default:
         printf("Opção inválida\n");
