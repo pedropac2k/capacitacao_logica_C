@@ -11,9 +11,10 @@
 #include <stdio.h>
 
 int main(){
-
     // crie seu código aqui:
-
+    float A = 15.6;
+    float B = 2.5;
+    float C = A * B;
 
 
     // validação

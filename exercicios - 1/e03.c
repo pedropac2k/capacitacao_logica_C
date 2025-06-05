@@ -12,7 +12,7 @@ int main() {
     int result;
 
     // Faça a comparação aqui:
-
+    result = A > B;
 
     // Código de validação
     if (result == 0) {

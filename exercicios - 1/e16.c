@@ -12,7 +12,8 @@ int main() {
     int mao[5] = {1, 1, 1, 1, 1};
 
     // Modifique o valor do polegar e do mindinho:
-
+    mao[4] = 0;
+    mao[0] = 0;
 
     
 

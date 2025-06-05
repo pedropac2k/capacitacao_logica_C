@@ -13,10 +13,10 @@ int main() {
     float D = 2.2, E = 0;
 
     // Salvar em C o resultado da soma de A e B
-
+    C = A + B;
 
     // Salvar em E o resultado da multiplicação de C por D
-
+    E = C * D;
 
     // Código de validação
     if (E == 55.0) printf("Parabéns! O valor de E é %.2f e está correto!\n", E);

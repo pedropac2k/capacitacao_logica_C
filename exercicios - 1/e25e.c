@@ -22,14 +22,19 @@ int main() {
 
     // Lógica:
 
-
-    
-
+    for(int i=0; i<tamanho; i++)
+        if(numeros[i] == alvo){
+            encontrado = 1;
+            break;
+        }
+        
     // Mensagem de resultado:
 
-
+        if (encontrado)
+            printf("Numero presente!");
+        else
+            printf("Numero ausente.");
 
 
     return 0;
 }
-

@@ -21,7 +21,7 @@ int main() {
     scanf("%d", &D);
 
     // Substitua ??? por uma comparação que verifique se o número é par ou ímpar
-    if ( ??? ) {
+    if (D % 2 == 0) {
         printf("O número %d é PAR.\n", D);
     } else {
         printf("O número %d é ÍMPAR.\n", D);

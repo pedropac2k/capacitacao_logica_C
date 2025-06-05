@@ -11,6 +11,9 @@
 */
 int main() {
     // Declare as variáveis abaixo:
+    int inteiro;
+    float quebrado;
+    char caractere;
     
 
 

@@ -24,17 +24,17 @@ int main() {
     do {
         printf("Palpite um número (de 1-50): ");
         // Complete o scanf
-        scanf( ??? );
+        scanf("%d", &palpite);
         tentativas++;
 
         // Substitua os "???" dos IFs pelas comparações corretas
-        if ( ??? )
+        if (palpite < secreto)
             printf("Muito baixo!\n");
-        else if ( ??? )
+        else if (palpite > secreto)
             printf("Muito alto!\n");
         else
             // Escreva uma mensagem de parabéns que exiba o número de tentativas
-            printf( ??? );
+            printf("Prabens voce acertou na %d° tentativa!", tentativas);
 
     } while (palpite != secreto);
 

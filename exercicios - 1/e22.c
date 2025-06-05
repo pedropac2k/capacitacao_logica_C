@@ -20,10 +20,13 @@ int main() {
         scanf("%f", &notas[i]);
 
     // Calcule a media usando a função tiraMedia:
-
+    media = tiraMedia(notas, 4);
 
     // Imprima "Aprovado!" se a média for maior ou igual a 5.95 ou "Reprovado!" se for menor que 5.95:
-        
+    if(media >= 5.95)
+        printf("Aprovado");
+    else
+        printf("Reprovado");
 
     return 0;
 }

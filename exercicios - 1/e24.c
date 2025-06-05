@@ -30,8 +30,10 @@ int main() {
     } while (N <= K);
     
     // Calcula a combinação (Comb)
+    //C = N! / (K! * (N - K)!)
 
-    
+    Comb = fatorial(N) / (fatorial(K) * fatorial(N - K));
+    printf("\nCombinação de N elementos tomados K a K: %d", Comb);
 
     return 0;
 }
